@@ -2,4 +2,66 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  overflow-x: hidden;
+}
+ul {
+  padding: 0;
+}
+
+.redLine {
+  background: #be0a27;
+  width: 100%;
+}
+.redLine li {
+  list-style: none;
+  display: inline-block;
+}
+
+
+.redLine img {
+  height: 24px;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 7px;
+}
+.redLine a {
+  display: block;
+  color: white;
+  padding: 12px 50px;
+}
+
+.logo img {
+  width: 100%; 
+}
+
+.tel img {
+  width: 16px;
+}
+
+a.tel {
+  display: block;
+}
+
+a.soc {
+  margin: 10px;
+}
+
+img.cart {
+  width: 32px;  
+  display: block;
+  margin: 0 auto;
+}
+
+.footer {
+  background: #be0a27;
+  width: 100%;
+}
+.card {
+  width: 320px;
+  display: inline-block;
+  margin: 10px 15px;
+}
+.card-groups {
+  text-align: center;
 }
